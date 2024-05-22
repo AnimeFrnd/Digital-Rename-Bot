@@ -23,7 +23,7 @@ class Config(object):
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7179779107').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6081617163 7179779107').split()]
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1001893295454") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002118699737))
 
