@@ -10,8 +10,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "7179779107")
-    API_HASH = os.environ.get("API_HASH", "6953910849:AAHB3Oamqxsb3Wqj6pbGIFtxlolfEfwFQRE")
+    API_ID = os.environ.get("API_ID", "25262754")
+    API_HASH = os.environ.get("API_HASH", "c3cc61710738293edbc6a529583bcc4a")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # premium account string session required 😢 
