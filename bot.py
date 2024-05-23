@@ -5,7 +5,7 @@
 # Developer @RknDeveloperr
 # Update Channel @Digital_Botz & @DigitalBotz_Support
 
-import aiohttp, asyncio, warnings, pytz, datetime
+import asyncio, warnings, pytz, datetime
 import logging, logging.config, glob, sys, importlib, pyromod
 from pathlib import Path
 from pyrogram import Client, __version__
